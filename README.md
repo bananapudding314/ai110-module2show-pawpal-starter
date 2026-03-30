@@ -27,6 +27,7 @@ Your final app should:
 ### Setup
 
 ```bash
+# python3 -m venv .venv (for me specifically on vscode terminal)
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt

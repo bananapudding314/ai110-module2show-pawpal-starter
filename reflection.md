@@ -7,6 +7,8 @@
 - Briefly describe your initial UML design.
 - What classes did you include, and what responsibilities did you assign to each?
 
+My initial design includes 2 classes: Task and Schedule. The task class has 2 fields: duration (integer value in minutes) and priority (integer value representing rank). The schedule class has 3 fields: a list object of all the tasks, hour (integer value) and minute (integer value). Those last two fields are for keeping track of the scheduled time.
+
 **b. Design changes**
 
 - Did your design change during implementation?
